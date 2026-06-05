@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charlie Ho 何汝翔 | Oboist & Music Educator</title>
+<style>
+  body {
+    background-color: #121212;
+    color: #dfba73;
+    font-family: 'Baskerville', 'Georgia', 'Noto Serif TC', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  /* 頂部音樂風背景裝飾 */
+  .header-bg {
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(135deg, #1c1c1c 0%, #162421 100%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(223, 186, 115, 0.2);
+  }
+
+  .header-bg::after {
+    content: "𝄞";
+    font-size: 100px;
+    color: #dfba73;
+    opacity: 0.15;
+    position: absolute;
+  }
+
+  /* 個人頭像與名片核心 */
+  .profile-container {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    margin-top: -50px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    background-color: #1c1c1c;
+    border: 3px solid #dfba73;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+  }
+
+  .name-en {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+  }
+
+  .name-ch {
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin-bottom: 8px;
+  }
+
+  .title {
+    font-size: 14px;
+    font-style: italic;
+    color: #ffffff;
+    opacity: 0.8;
+    margin-bottom: 25px;
+  }
+
+  /* 通訊錄/按鈕列表 */
+  .links-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 35px;
+  }
+
+  .btn {
+    background-color: #1c1c1c;
+    color: #dfba73;
+    border: 1px solid rgba(223, 186, 115, 0.4);
+    border-radius: 30px;
+    padding: 14px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  .btn:active {
+    background-color: #dfba73;
+    color: #121212;
+  }
+
+  /* 摺疊資歷區 */
+  .bio-section {
+    background-color: #1c1c1c;
+    border: 1px solid rgba(223, 186, 115, 0.15);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .section-title {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(223, 186, 115, 0.3);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .bio-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .bio-section li {
+    font-size: 12px;
+    color: #ffffff;
+    opacity: 0.85;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bio-section li span {
+    max-width: 80%;
+  }
+
+  .bio-section .year {
+    color: #dfba73;
+  }
+</style>
+</head>
+<body>
+
+  <div class="header-bg"></div>
+
+  <div class="profile-container">
+    <!-- 頭像（可以自己換成照片或樂器 Icon） -->
+    <div class="avatar">🎵</div>
+    
+    <div class="name-en">Ho Yu Cheung, Charlie</div>
+    <div class="name-ch">何汝翔</div>
+    <div class="title">Oboist & Music Educator</div>
+
+    <!-- 快速聯絡按鈕 -->
+    <div class="links-list">
+      <a href="tel:+85261566957" class="btn">📞 撥打電話 (Mobile)</a>
+      <a href="https://wa.me/85261566957" class="btn">💬 WhatsApp 聯絡</a>
+      <a href="mailto:charlie.oboe.hk@gmail.com" class="btn">📧 發送電郵 (Email)</a>
+    </div>
+
+    <!-- 網頁版學歷資歷 -->
+    <div class="bio-section">
+      <div class="section-title">Qualifications & Education</div>
+      <ul>
+        <li><span><strong>LTCL (Oboe Recital)</strong><br>Trinity College London</span> <span class="year">2014</span></li>
+        <li><span><strong>Bachelor of Music</strong><br>HKBU</span> <span class="year">2014</span></li>
+       </ul>
+    </div>
+
+    <div class="bio-section">
+      <div class="section-title">Experience</div>
+      <ul>
+        <li><span>Private Oboe Teacher</span> <span class="year">2004-現正</span></li>
+        <li><span>Artists Channel Oboe Tutor</span> <span class="year">2012-現正</span></li>
+        <li><span>樂團演奏 (HKFO / Pro Arte / GMO)</span> <span class="year">2006-2016</span></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
